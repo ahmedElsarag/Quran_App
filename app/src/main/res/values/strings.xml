@@ -1,0 +1,11 @@
+<resources>
+
+    <string name="app_name">القرآن الكريم</string>
+    <string name="home_name">استماع القرآن</string>
+    <string name="read_quran">قراءه القرآن</string>
+    <string name="favorite_quran">المفضله</string>
+    <string name="bookmark_quran">الذهاب الى العلامه</string>
+    <string name="about_quran">دعاء الختام</string>
+    <string name="share_quran">عن التطبيق</string>
+
+</resources>

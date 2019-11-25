@@ -1,0 +1,96 @@
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view"
+    android:layout_width="125dp"
+    android:layout_height="125dp"
+    android:background="@drawable/card">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/card"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/card"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="3dp"
+            android:layout_marginTop="3dp"
+            >
+            <ImageView
+                android:id="@+id/img_more"
+                android:layout_width="20dp"
+                android:layout_alignParentLeft="true"
+                android:layout_height="15dp"
+                android:src="@drawable/more"
+
+                />
+
+            <ImageView
+                android:id="@+id/downloadSour"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/ic_download_dark"
+                android:layout_marginLeft="75dp"
+                />
+
+
+        </RelativeLayout>
+
+
+
+
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/img_qaura"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center"
+            android:src="@raw/abod_albast"
+            app:civ_border_color="@android:color/holo_orange_dark"
+            android:layout_marginTop="5dp"
+            app:civ_border_width="1.5dp"
+            />
+
+
+
+        <TextView
+                android:id="@+id/txt_sourName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="الفاتحه"
+                android:layout_marginTop="4dp"
+                android:layout_gravity="center"
+                android:textColor="@color/textColorPrimary" />
+
+        <TextView
+            android:id="@+id/txt_from"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="من الهاتف"
+            android:textSize="8sp"
+            android:layout_marginRight="8dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            />
+
+
+
+
+
+
+    </LinearLayout>
+
+
+</android.support.v7.widget.CardView>
+

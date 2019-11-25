@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/read_quran_background">
+
+    <ImageView
+        android:layout_width="@dimen/corner"
+        android:layout_height="@dimen/corner"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="@dimen/corner_margin"
+        android:src="@drawable/corner1" />
+
+    <ImageView
+        android:layout_width="@dimen/corner"
+        android:layout_height="@dimen/corner"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="@dimen/corner_margin"
+        android:src="@drawable/corner2" />
+
+    <ImageView
+        android:layout_width="@dimen/corner"
+        android:layout_height="@dimen/corner"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="@dimen/corner_margin"
+        android:src="@drawable/corner3" />
+
+    <ImageView
+        android:layout_width="@dimen/corner"
+        android:layout_height="@dimen/corner"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="@dimen/corner_margin"
+        android:src="@drawable/corner4" />
+
+    <ImageView
+        android:id="@+id/doaa_imageView_title"
+        android:layout_width="208dp"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/margin"
+        android:src="@drawable/doaa_title" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/doaa_imageView_title"
+        android:layout_alignParentBottom="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/doaa_text_margin"
+                android:gravity="center"
+                android:text="اللهم ارحمني بالقرآن واجعله لي إماماً ونوراً وهدىً ورحمةً اللهم ذكرني منه ما نسيت وعلمني منه ما جهلت وارزقني تلاوته آناء الليل وأطراف النهار واجعله لي حجة يارب العالمين"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/doaa_text_margin"
+                android:gravity="center"
+                android:text="اللهم أصلح لي ديني الذي هو عصمة أمري وأصلح لي دنياي التي فيها معاشي وأصلح لي آخرتي التي فيها معادي واجعل الحياة زيادة لي في كل خير واجعل الموت راحة لي من كل شر"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/doaa_text_margin"
+                android:gravity="center"
+                android:text="اللهم اجعل خير عمري آخره وخير عملي خواتمه وخير أيامي يوم ألقاك فيه"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/doaa_text_margin"
+                android:gravity="center"
+                android:text="اللهم إني أسألك عيشةً هنيةً وميتةً سويةً ومرداً غير مخزٍ ولافاضحٍ"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/doaa_text_margin"
+                android:gravity="center"
+                android:text="اللهم إني أسألك خير المسألة وخير الدعاء وخير النجاح وخير العلم وخير العمل وخير الثواب وخير الحياة وخير الممات وثبتني وثقل موازيني وحقق إيماني وارفع درجتي وتقبل صلاتي واغفر لي خطيئاتي وأسألك العلا من الجنة"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/doaa_text_margin"
+                android:gravity="center"
+                android:text="اللهم إني أسألك موجبات رحمتك وعزائم مغفرتك والسلامة من كل إثم والغنيمة من كل بر والفوز بالجنة والنجاة من النار"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/doaa_text_margin"
+                android:gravity="center"
+                android:text="اللهم أحسن عاقبتنا في الأمور كلها وأجرنا من خزي الدنيا وعذاب الأخرة"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/doaa_text_margin"
+                android:gravity="center"
+                android:text="اللهم اقسم لنا من خشيتك ما تحول به بيننا وبين معصيتك ومن طاعتك ما تبلغنا بها جنتك ومن اليقين ما تهون به علينا مصائب الدنيا ومتعنا بأسماعنا وأبصارنا وقوتنا ما أحييتنا واجعله الوارث منا واجعل ثأرنا على من ظلمنا وانصرنا على من عادانا ولا تجعل مصيبتنا في ديننا ولا تجعل الدنيا أكبر همنا ولا مبلغ علمنا ولا تسلط علينا من لا يرحمنا"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/doaa_text_margin"
+                android:gravity="center"
+                android:text="اللهم لا تدع لنا ذنباً إلا غفرته ولا هماً إلا فرجته ولا ديناً إلا قضيته ولا حاجةً من حوائج الدنيا والأخرة إلا قضيتها يا أرحم الراحمين"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/doaa_text_margin"
+                android:gravity="center"
+                android:text="ربنا آتنا في الدنيا حسنةً وفي الأخرة حسنةً وقنا عذاب النار وصلى الله على نبينا محمد وعلى آله وأصحابه الأخيار وسلم تسليماً كثيراً"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

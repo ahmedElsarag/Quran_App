@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<item
+    android:id="@+id/download"
+    android:title="تحميل"
+    >
+</item>
+    <item
+        android:id="@+id/add_favorite"
+        android:title="اضافة للمفضله"
+        >
+
+    </item>
+
+</menu>
